@@ -1,0 +1,29 @@
+certifi==2022.5.18.1
+charset-normalizer==2.0.12
+greenlet==1.1.2
+idna==3.3
+numpy==1.22.4
+pandas==1.4.2
+psycopg2==2.9.3
+python-dateutil==2.8.2
+pytz==2022.1
+requests==2.27.1
+six==1.16.0
+SQLAlchemy==1.4.36
+urllib3==1.26.9
+
+#Import libraries to use
+import pandas as pd
+import seaborn as sns
+import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
+import plotly.express as px
+import zepid
+from zepid.graphics import EffectMeasurePlot
+import networkx as nx
+from numpy import genfromtxt
+from scipy import stats
+import os
+from IPython.display import Image
+from thefuzz import fuzz
