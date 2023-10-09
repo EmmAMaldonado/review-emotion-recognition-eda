@@ -13,7 +13,7 @@ def multi_reversing_n(df,col_id, col_values):
 def bar_plot(col, data, titulos):
     var_x = col
     df = data
-    g = sns.countplot(x=var_x, data=df, order = getattr(df, var_x).value_counts().index, palette="bone")
+    g = sns.countplot(x=var_x, data=df, order = getattr(df, var_x).value_counts().index, palette="Paired")
     g.set(title = titulos[0], xlabel = titulos[1], ylabel = titulos[2])
     plt.xticks(rotation=90)
     
